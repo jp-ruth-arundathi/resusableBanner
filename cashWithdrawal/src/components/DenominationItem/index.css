@@ -1,0 +1,17 @@
+.btn {
+  background-color: #585076;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c4c4c4;
+  border-radius: 10px;
+  height: 40px;
+  width: 160px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.value-list {
+  list-style-type: none;
+}

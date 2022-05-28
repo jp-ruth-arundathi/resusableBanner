@@ -1,0 +1,48 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ececec;
+  min-height: 100vh;
+}
+.nav-container {
+  display: flex;
+  background-color: #3367d6;
+  height: 60px;
+  width: 100%;
+}
+.logo-size {
+  height: 25px;
+  width: 100px;
+  margin-right: 300px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.search-icon-input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.search-icon {
+  height: 29px;
+  width: 29px;
+  background-color: #2850a7;
+  margin-right: 5px;
+}
+.input-box {
+  height: 30px;
+  width: 450px;
+  background-color: #2850a7;
+  border: none;
+}
+.browse-item-container {
+  background-color: #f8fafc;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.browse-list {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}

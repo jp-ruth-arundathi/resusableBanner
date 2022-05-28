@@ -1,0 +1,20 @@
+/* Write your code here. */
+.list-item {
+  list-style-type: none;
+}
+.thumb-image {
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.thumb-image-display {
+  height: 50px;
+  width: 50px;
+  opacity: 1;
+}

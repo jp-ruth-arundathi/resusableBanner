@@ -1,0 +1,17 @@
+.items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.img-size {
+  height: 190px;
+  width: 220px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.city-name {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #252627;
+}

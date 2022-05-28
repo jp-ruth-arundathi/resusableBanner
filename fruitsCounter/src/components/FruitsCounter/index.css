@@ -1,0 +1,64 @@
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px;
+}
+.fruit-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 85vh;
+}
+.heading {
+  color: #000000;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.count {
+  color: #ffd569;
+}
+.fruits {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 786px) {
+  .fruits {
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .mango-image {
+    height: 100px;
+    width: 100px;
+  }
+  .aligning {
+    margin-right: 0px;
+  }
+}
+.mango-image {
+  height: 300px;
+  width: 290px;
+}
+.mango-btn {
+  height: 40px;
+  width: 100px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.button {
+  text-align: center;
+  margin-top: 20px;
+}
+.aligning {
+  margin-right: 150px;
+}

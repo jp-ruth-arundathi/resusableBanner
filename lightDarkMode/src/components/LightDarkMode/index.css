@@ -1,0 +1,48 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+}
+.container-dark {
+  background-color: black;
+}
+.container-light {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: black;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.heading-dark {
+  color: black;
+}
+.heading-light {
+  color: #ffffff;
+}
+.mode-btn {
+  background-color: #ffffff;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}

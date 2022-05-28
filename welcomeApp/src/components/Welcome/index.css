@@ -1,0 +1,43 @@
+.container {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.heading {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: 'Bree Serif';
+  color: #f0bb03;
+}
+
+.message {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .message {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+.sub-button {
+  height: 50px;
+  width: 120px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Bree Serif';
+}
